@@ -31,11 +31,12 @@ function determineWinnerWithMinScoreAndDraw() {
 }
 
 function determineWinnerWithMinScore() {
-    let teamDolphins = new Team("Dolphins", [96, 108, 89]);
-    let teamKoalas = new Team("Koalas", [88, 91, 110]);
+    let teamDolphins = new Team("Dolphins", [97, 112, 101]);
+    let teamKoalas = new Team("Koalas", [109, 95, 123]);
     let averageScoreDolphins = averageScore(teamDolphins);
     let averageScoreKoalas = averageScore(teamKoalas);
-
+    console.log("averageScoreDolphins: ", averageScoreDolphins);
+    console.log("averageScoreKoalas: ", averageScoreKoalas);
     if (averageScoreDolphins >= 100 && averageScoreDolphins > averageScoreKoalas) {
         console.log('Dolphins thắng với điểm trung bình là ' + averageScoreDolphins);
     } else if (averageScoreKoalas >= 100 && averageScoreKoalas > averageScoreDolphins) {
