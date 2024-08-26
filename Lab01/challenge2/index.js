@@ -49,11 +49,4 @@ function determineWinnerWithMinScore() {
 }
 determineWinnerWithMinScore();
 determineWinnerWithMinScoreAndDraw();
-// const diff = () => {
-//     let teamDolphins = new Team("Dolphins", [96, 108, 89]);
-//     let teamKoalas = new Team("Koalas", [88, 91, 110]);
-//     let averageScoreDolphins = averageScore(teamDolphins);
-//     let averageScoreKoalas = averageScore(teamKoalas);
-//     console.log(averageScoreDolphins, ">>>", averageScoreKoalas);
-// }
 // diff();
